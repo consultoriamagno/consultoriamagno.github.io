@@ -1,1 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T. M. Construção Civil e Locações Eireli</title>
+    <style>
+        /* Estilização Geral */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
 
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f39c12;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        section {
+            background: #fff;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        .services-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .service-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+
+        .service-item:hover {
+            transform: translateY(-5px);
+            border-color: #f39c12;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background: #2c3e50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #f39c12;
+        }
+
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        .policy-text {
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>T. M. Construção Civil e Locações</h1>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+            <a href="#politicas">Privacidade</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        
+        <section id="inicio">
+            <h2>Sobre Nós</h2>
+            <p>A <strong>T. M. Construção Civil e Locações Eireli</strong> atua no mercado oferecendo soluções sólidas em engenharia, obras e aluguel de equipamentos, sempre focada na qualidade, segurança e satisfação de nossos clientes.</p>
+        </section>
+
+        <section id="servicos">
+            <h2>Nossos Serviços</h2>
+            <div class="services-list">
+                <div class="service-item">
+                    <h3>Construção Civil</h3>
+                    <p>Execução de obras residenciais, comerciais e industriais com acompanhamento técnico especializado.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Locações</h3>
+                    <p>Aluguel de máquinas, ferramentas e equipamentos para otimizar sua obra com o melhor custo-benefício.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Manutenção</h3>
+                    <p>Serviços de reparos estruturais, hidráulicos e elétricos para manter seu patrimônio seguro.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para orçamentos e dúvidas.</p>
+            <form>
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu E-mail" required>
+                <textarea rows="5" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+
+        <section id="politicas">
+            <h2>Políticas de Privacidade</h2>
+            <div class="policy-text">
+                <p>A T. M. Construção Civil e Locações Eireli compromete-se com a segurança dos seus dados. As informações coletadas através do formulário de contato são utilizadas exclusivamente para retorno comercial.</p>
+                <p>Não compartilhamos seus dados com terceiros e seguimos as diretrizes da Lei Geral de Proteção de Dados (LGPD).</p>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p><strong>T. M. Construção Civil e Locações Eireli</strong></p>
+        <p>CNPJ: 00.000.000/0001-00</p> <p>Endereço: Rua Exemplo, nº 123 - Bairro - Cidade/Estado - CEP: 00000-000</p>
+        <p>&copy; 2026 Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
